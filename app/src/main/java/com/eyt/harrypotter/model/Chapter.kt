@@ -5,5 +5,5 @@ data class Chapter(
     val quotes: List<String>?,
     val chapterNumber: Int?,
     val content: List<String>?,
-    val customContinueTo: Int?
+    val isBonus: Boolean?
 )
